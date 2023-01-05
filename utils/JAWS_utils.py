@@ -1174,6 +1174,6 @@ def plot_AUC(AUC_results_path, dataset, mu, num_trials, save_figure = True):
     plt.xticks(fontsize= 14)
     plt.yticks(fontsize= 14)
     if (save_figure):
-        plt.savefig(str(date.today()) + '_AUC_' + str(dataset) + '_' + mu + '_' + str(num_trials) + '_Trials.png',dpi=200,bbox_inches='tight')
+        plt.savefig('./results_figures/fig5and8_ErrorAssessAUC/'str(date.today()) + '_AUC_' + str(dataset) + '_' + mu + '_' + str(num_trials) + 'Trials.png',dpi=200,bbox_inches='tight')
     plt.show()
         
